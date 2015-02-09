@@ -1,0 +1,30 @@
+<html>
+<head><title>Register or login</title></head>
+<body>
+
+<font color="red"><b>Attention!</b></font>
+<dl>
+	<dt><b>Frist time user:</b></dt>
+	<dd>Please register. Note here you are registering for your database for the depolyment of your webpage. After your successfully register, hit the "install drupal" button to do the following up installtions including selecting languages, creating administration account, etc.</dd>
+	<dt><b>Returning user:</b></dt>
+	<dd>	
+		Go to your homepage directly at username.localhost, or<br>
+		Type your database username below (<b>leave password blank</b>) and hit the "login" button.
+	</dd>	
+</dl>
+
+	<div class="form">
+		<form action="register.php" method="post">
+			Database username: <input type="text" name="username"><br>
+			Database password: <input type="password" name="password"><br>
+			<input type="submit" name="register" value="new user? register now">
+			<input type="submit" name="login" value="login">
+		</form>
+
+	</div>
+	</div>
+    <div class="registrationFormAlert" id="divCheckPasswordMatch">
+</div>
+
+</body>
+</html> 
